@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
+import kotlin.math.absoluteValue
 
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +28,8 @@ class MainActivity : AppCompatActivity() {
             val sorted = Random().nextInt(2)
 
             // Definindo o valor final contendo o resultado do valor sorteado
-            responseView.text = getString(R.string.sorted_value) + sorted.toString()
+            print(sorted.absoluteValue.toString())
+            responseView.text = getString(R.string.sorted_value) + " " + sorted.absoluteValue
         }
     }
 
