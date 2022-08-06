@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">App Roleta</string>
-    <string name="main_title">Escolha um número de 0 a 1</string>
-    <string name="sorted_value">Número sorteado é</string>
+    <string name="app_name">Roleta da Sorte</string>
+    <string name="main_title">Escolha um número até o número 10</string>
+    <string name="hint_number">Digite aqui!</string>
+    <string name="range_error">Digite um valor de 0 até 10</string>
+    <string name="error_empty">Preencha um valor!</string>
+    <string name="sorted_match">Parabéns, asserto miseravi =D</string>
+    <string name="sorted_not_match">Não foi dessa vez =/</string>
     <string name="main_btn_run">Rodar</string>
 </resources>
